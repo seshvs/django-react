@@ -1,5 +1,3 @@
-// frontend/src/components/Modal.js
-
 import React, { Component } from "react";
 
 export default class ResultTile extends Component {
