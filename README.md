@@ -15,11 +15,11 @@ It's a simple application and no much stress on styling is given.
 *	Clone the code `git clone <>`
 *	Create virtual env 
 
-    >	`cd django-react`
+    >	cd django-react
 
-    >	`mkvirtualenv django-react --python=`which python3`
+    >	mkvirtualenv django-react --python=\`which python3`
 
-    >	`pip install -r requirements.txt`
+    >	pip install -r requirements.txt
     
 *	`cd backend`
 *	start django server `./manage.py runserver` => This will start the django server at 8000 port (Note if you start the server in any other port, Then please update the frontend and django settings files).  
