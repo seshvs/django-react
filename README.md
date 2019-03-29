@@ -1,6 +1,7 @@
-#README 
 
-##Installation 
+# Readme
+
+## Installation 
 ----------------
 1)	Clone the code `git clone <>`
 2)	Create virtual env 
@@ -19,11 +20,14 @@ Now lets start Frontend.
 Browser will open with a select box … 
 Select Air Conditioners to fetch the details .
 
+![image](https://user-images.githubusercontent.com/25874433/55227378-7508cc80-526b-11e9-8760-682bd7aeef69.png)
+
+
 Select other category to find other details.
 
 
-##Unit tests 
-----------------
+## Unit tests 
+
 
 Python django tests are enabled. Run `./manage.py test`. This will test all test cases developed. 
 
