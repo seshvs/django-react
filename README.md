@@ -1,6 +1,15 @@
 
 # Readme #
 
+## Solution
+Solution contains Django Webserver and a React Web App. 
+It's a simple application. 
+Django Webserver consists for some tests. 
+React Web App will do all computation for not just AirConditioners but also for other categories. 
+React Web App also will display the results of that category. 
+
+It's a simple application and no much stress on styling is given.
+
 ## Installation ##
 
 *	Clone the code `git clone <>`
