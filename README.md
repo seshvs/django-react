@@ -1,7 +1,6 @@
-                                                      README 
-                                                  =================
-                                                  Please read the README.doc 
-Installation 
+#README 
+
+##Installation 
 ----------------
 1)	Clone the code `git clone <>`
 2)	Create virtual env 
@@ -23,7 +22,7 @@ Select Air Conditioners to fetch the details .
 Select other category to find other details.
 
 
-Unit tests 
+##Unit tests 
 ----------------
 
 Python django tests are enabled. Run `./manage.py test`. This will test all test cases developed. 
