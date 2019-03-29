@@ -28,11 +28,15 @@ export default class AverageCubicWeight extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedOption: null,
+      selectedOption: options.filter(option => option.value === 'Airconditioners')[0],
       avg_cubic_weight: 0,
       result_list: []
     };
   }
+
+  componentDidMount() {
+      this.handleChange(this.state.selectedOption);
+  };
 
   render_result = () => {
     return (
@@ -55,8 +59,6 @@ export default class AverageCubicWeight extends Component {
                   avg_cubic_weight: res.data.avg_cubic_weight,
                   result_list : res.data.result_list
                   });
-    console.log(res.data.result_list);
-
   };
 
   handleChange = (selectedOption) => {
@@ -86,6 +88,7 @@ export default class AverageCubicWeight extends Component {
               value={this.state.selectedOption}
               onChange={this.handleChange}
               options={options}
+
             />
           </div>
         </div>
